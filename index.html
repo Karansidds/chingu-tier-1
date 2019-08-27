@@ -1,0 +1,348 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Chingu Project</title>
+  </head>
+
+  <body>
+    <!-- BUTTON TO GO TO HOME -->
+    <div class="home-button hidden">
+      <a href="#header" class="home-button__link">
+        <i class="fa fa-arrow-up"></i>
+      </a>
+    </div>
+    <!-- Fixed navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar__list">
+          <li><a href="index.html" class="navbar__link1">HOME</a></li>
+          <li><a href="#card-tile-1" class="navbar__link1">ABOUT US</a></li>
+          <li><a href="#services" class="navbar__link1">SERVICES</a></li>
+          <li><a href="#contact" class="navbar__link1">CONTACT</a></li>
+          <li><a href="#" class="navbar__link1">EXTERNAL</a></li>
+        </ul>
+      </div>
+    </nav>
+    <button type="button" id="sidebarCollapse" class="btn bg-transparent">
+      <i class="fa fa-align-right" style="font-size: 1.4rem;"></i>
+      <span style="font-size: 1.3rem;"></span>
+    </button>
+
+    <nav class="sidebar">
+      <div class="overlay"></div>
+      <div class="sidebar__menu">
+        <button type="button" id="collapse">
+          <i class="fa fa-arrow-right sidebar__toggle"></i>
+        </button>
+        <hr class="style-two" />
+        <div class="sidebar__header">
+          <h3>MENU</h3>
+          <p>Welcome Chingu Members!</p>
+        </div>
+        <hr class="style-two" />
+        <div class="sidebar__body">
+          <ul>
+            <li><a href="index.html" class="navbar__link1">HOME</a></li>
+            <li><a href="#card-tile-1" class="navbar__link1">ABOUT US</a></li>
+            <li><a href="#services" class="navbar__link1">SERVICES</a></li>
+            <li><a href="#contact" class="navbar__link1">CONTACT</a></li>
+            <li><a href="#" class="navbar__link1">EXTERNAL</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="sidebar__content"></div>
+    </nav>
+
+    <!-- Header with the display message -->
+    <header id="header" class="header">
+      <div class="header__display">
+        <h1 class="text-white text-shadow header__primary">
+          My <em> Chingu</em> Project
+        </h1>
+        <h2 class="text-white text-shadow-1 header__secondary">
+          Tier 1- Karan Siddannavar
+        </h2>
+      </div>
+    </header>
+
+    <!-- Details of the Website -->
+    <!-- CARD-TILE-1 -->
+    <section id="card-tile-1" class="properties">
+      <div class="l-wrap">
+        <div class="section group">
+          <div class="col span_1_of_3 properties__card-1">
+            <div class="card-1__top">
+              <img
+                src="./images/feature1.jpg"
+                alt="Card-1"
+                class="responsive"
+              />
+            </div>
+            <div class="card-1__body">
+              <h3 style="color:green;">Bootstrap</h3>
+              <p>
+                Morbi sagittis justo a velit placerat ullamcorper quis quis
+                velit. Sed convallis at risus ullamcorper auctor. Praesent quis
+                velit neque. Quisque semper porta nisi vitae suscipit. Duis
+                lectus magna, ornare ac scelerisque.
+              </p>
+            </div>
+            <div class="card-1__button">
+              <a href="#" class="button card-btn-1">Welcome</a>
+            </div>
+          </div>
+          <div class="col span_1_of_3 properties__card-2">
+            <div class="card-2__top">
+              <img src="./images/1-2.jpg" alt="Card-2" class="responsive" />
+            </div>
+            <div class="card-2__body">
+              <h3 style="color:rgb(0, 195, 255);">Responsive Design</h3>
+              <p>
+                Conquer Template is provided by templatemo for free of charge.
+                You can use this template for any kind of website. No credit
+                link is required. All images by
+                <a href="https://unsplash.com/" style="color:red;">Unsplash</a>
+              </p>
+            </div>
+
+            <div class="card-2__button">
+              <a href="#" class="button card-btn-2">Welcome</a>
+            </div>
+          </div>
+          <div class="col span_1_of_3 properties__card-3">
+            <div class="card-3__top">
+              <img src="/images/1-3.jpg" alt="Card-3" class="responsive" />
+            </div>
+            <div class="card-3__body">
+              <h3 style="color:#333;">Parallax Layout</h3>
+              <p>
+                Morbi sagittis justo a velit placerat ullamcorper quis quis
+                velit. Sed convallis at risus ullamcorper auctor. Praesent quis
+                velit neque. Quisque semper porta nisi vitae suscipit. Duis
+                lectus magna, ornare ac scelerisque.
+              </p>
+            </div>
+            <div class="card-3__button">
+              <a href="#" class="button card-btn-3">Welcome</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARD-TILE-2 -->
+    <section id="card-tile-2">
+      <div class="l-wrap">
+        <div class="section group">
+          <div class="col-1 span_1_of_2 card-1">
+            <div class="top image-1"></div>
+            <div class="body">
+              <h3>TWO COLUMN LEFT SIDE</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse elementum eu lacus eget dapibus. Donec condimentum
+                dolor venenatis, dapibus eros eget, varius lectus. Duis eget
+                nulla eu felis tristique convallis eu vitae metus.<br />
+                <br />
+                Donec ut turpis a odio porttitor tempus in quis mi. Donec
+                pretium consectetur mauris, varius dictum felis semper id.
+                Nullam tempor accumsan dignissim. Aliquam consequat magna vitae
+                rhoncus tempor.
+              </p>
+            </div>
+          </div>
+          <div class="col-1 span_1_of_2 card-2">
+            <div class="top image-2"></div>
+            <div class="body">
+              <h3>TWO COLUMN RIGHT SIDE</h3>
+              <p>
+                Fusce in rutrum purus, a porta nulla. Integer ornare velit vel
+                cursus finibus. Maecenas nisi eros, pulvinar at fringilla sit
+                amet, aliquet in nulla. Donec vel velit laoreet, facilisis
+                ligula ut, lobortis turpis. <br />
+                Quisque eget gravida est. Donec suscipit eleifend maximus. Nulla
+                at interdum neque. Suspendisse imperdiet libero a nisi
+                malesuada, vel tincidunt nunc varius. Donec a metus vitae odio
+                placerat finibus ac nec risus.
+              </p>
+            </div>
+            <div class="button"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+      <div class="services__display">
+        <h2 class="text-cream text-shadow">
+          Our Services
+        </h2>
+        <p class="text-white services__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          elementum eu lacus eget dapibus. Donec condimentum dolor venenatis,
+          dapibus eros eget, varius lectus. Duis eget nulla eu felis tristique
+          convallis eu vitae metus. Donec ut turpis a odio porttitor tempus in
+          quis mi
+        </p>
+      </div>
+    </section>
+
+    <section id="card-tile-3">
+      <div class="l-wrap">
+        <div class="section group">
+          <div class="col-2 span_1_of_4 properties__card-1">
+            <div class="image-section img-1"></div>
+            <div class="body-section">
+              <h3>COLUMN 1</h3>
+              <p>
+                Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui
+                libero, in tincidunt purus pretium quis.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-2 span_1_of_4 properties__card-1">
+            <div class="image-section img-2"></div>
+            <div class="body-section">
+              <h3>COLUMN 2</h3>
+              <p>
+                Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui
+                libero, in tincidunt purus pretium quis. Fusce posuere egestas
+                enim eu viverra.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-2 span_1_of_4 properties__card-1">
+            <div class="image-section img-3"></div>
+            <div class="body-section">
+              <h3>COLUMN 3</h3>
+              <p>
+                Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui
+                libero, in tincidunt purus pretium quis.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-2 span_1_of_4 properties__card-1">
+            <div class="image-section img-4"></div>
+            <div class="body-section">
+              <h3>COLUMN 4</h3>
+              <p>
+                Ut ac odio scelerisque ante ornare commodo. Sed faucibus dui
+                libero, in tincidunt purus pretium quis. Fusce posuere egestas
+                enim eu viverra.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARD-TILE-4 -->
+    <section id="card-tile-4">
+      <div class="l-wrap">
+        <div class="section group">
+          <div class="col-3 span_1_of_1 properties__card-1">
+            <div class="tile-image"></div>
+            <div class="tile-body">
+              <h3>COLUMN-1</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                justo lorem, viverra et mauris in, auctor eleifend eros. Nunc
+                aliquam varius facilisis. Integer gravida sapien id turpis
+                tempor, in tincidunt justo mattis. Curabitur dictum mi sed
+                lectus placerat cursus. Pellentesque ullamcorper pharetra felis,
+                a interdum urna lobortis quis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="l-wrap">
+        <div class="contact-section__header">
+          <h2>CONTACT US</h2>
+          <p class="contact-section__details">
+            Nunc diam leo, fringilla vulputate elit lobortis, consectetur
+            vestibulum quam. Sed id felis ligula. In euismod libero at magna
+            dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius
+            condimentum.
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <div class="wrapper">
+            <div class="input-form-1">
+              <div>
+                <input
+                  type="text"
+                  id="name"
+                  class="contact-form__input"
+                  placeholder="NAME"
+                />
+              </div>
+              <div>
+                <input
+                  type="email"
+                  id="email"
+                  class="contact-form__input"
+                  placeholder="EMAIL"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  id="subject"
+                  class="contact-form__input"
+                  placeholder="SUBJECT"
+                />
+              </div>
+            </div>
+            <div class="input-form-2">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="7"
+                class="text-area"
+                placeholder="MESSAGE"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+      <div class="text-center">
+        <h2><em>Use it Free</em></h2>
+        <p class="footer-description">
+          “Conquer is free Bootstrap template from TemplateMo website. No
+          backlink is required to use this layout."
+        </p>
+        <hr />
+        <p>Copyright © 2045 Your Company Name | Design: TemplateMo</p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
